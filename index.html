@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!------fonts-------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap">
+    <!--------title------------->
+    <title>ATGtask1</title>
+</head>
+
+<body>
+    <!----------frist section-------------->
+    <div class="section1">
+        <figure class="cPost">
+            <img src="img/i_pencil.svg">
+        </figure>
+
+        <div class="auth hide">
+            <div class="authentication">
+                <picture>
+                    <source srcset="img/i_cancel_circle_black.svg" media="(max-width: 500px)">
+                    <img class="Cancel" src="img/i_cancel_circle.svg">
+                </picture>
+                <p class="authnote">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼 </p>
+
+                <!--------------Create account------------------------>
+                <div class="authAccount" id="CAccount">
+                    <div class="input">
+                        <h1>Create Account</h1>
+                        <div class="input-container">
+                            <div class="FullNameuser">
+                                <input type="text" placeholder="First Name">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <input type="email" placeholder="Email">
+                            <label style="position: relative;">
+                                <img class="icon-view" src="img/i_view.svg">
+                                <input type="password" placeholder="Password">
+                            </label>
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="cta">
+                            <button class="button800 btnAuth">Create Account</button>
+                            <a class="signMobile " style="cursor: pointer;">or, Sign In</a>
+                        </div>
+                        <button class="button800 FACEBOOKBTN">
+                            <img src="img/i_facebook.png">
+                            Sign up with Facebook
+                        </button>
+                        <button class="button800 btn--google">
+                            <img src="img/i_google.png" >
+                            Sign up with Google
+                        </button>
+                    </div>
+                    <div class="change">
+                        <p class="p1">Already have an account? <a class="signin">Sign In</a></p>
+                        <img src="img/sign_in_image.png">
+                        <p class="p2">By signing up, you agree to our Terms & conditions, Privacy policy</p>
+                    </div>
+                </div>
+
+                <div class="authAccount hide" id="SignIn">
+                    <div class="input">
+                        <h1>Welcome back!</h1>
+                        <div class="input-container">
+                            <input type="email" placeholder="Email">
+                            <label style="position: relative;">
+                                <img class="icon-view" src="img/i_view.svg" >
+                                <input type="password" placeholder="Password">
+                            </label>
+                        </div>
+                        <div class="cta">
+                            <button class="button800 btnAuth">Sign In</button>
+                            <a class="SignUpMobile">or, Create new</a>
+                        </div>
+                        <button class="button800 FACEBOOKBTN">
+                            <img src="img/i_facebook.png">
+                            Sign in with Facebook
+                        </button>
+                        <button class="button800 btn--google">
+                            <img src="img/i_google.png">
+                            Sign in with Google
+                        </button>
+                        <a href="" class="forget-password">Forget Password?</a>
+                    </div>
+                    <div class="change">
+                        <p class="p1">Don’t have an account yet? <a class="sign-up">Create new for free!</a></p>
+                        <img src="img/sign_in_image.png" >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-------header and background and search input-------------->
+        <header class="section3">
+            <img class="logo3" src="img/i_logo.svg">
+            <label class="search4">
+                <img class="SearcHicon" src="img/i_search.svg" >
+                <input class="SearcHinput" type="text" placeholder="Search for your favorite groups in ATG">
+            </label>
+            <div class="SignUpSection33">
+                <p>Create account. <a class="itsfree">It's free</a></p>
+                <img class="LogoSigunUp" src='img/i_arrow_bottom.svg' />
+            </div>
+        </header>
+        <div class="home">
+            <div class="MobileH">
+                <img src="img/i_previous.svg" >
+                <button class="button800 button606060 itsfreemobilemode">Join Group</button>
+            </div>
+
+            <!-----Heading news------------>
+            <div class="News">
+                <h1>Computer Engineering</h1>
+                <p>142,765 Computer Engineers follow this</p>
+            </div>
+            
+        </div>
+
+        <!-----------end of header --------------------->
+
+
+        <!-------------ul and li > all posts , article , event , education--------------->
+        <section class="divposts">
+            <header class="divpostssection">
+                <nav class="divposts-navnav">
+                    <a class="divposts-nav active">All Posts (32)</a>
+                    <a class="divposts-nav">Article</a>
+                    <a class="divposts-nav">Event</a>
+                    <a class="divposts-nav">Education</a>
+                    <a class="divposts-nav">Job</a>
+                </nav>
+                <button class="button800 btn5050">
+                    Write a Post&nbsp;
+                    <img src="img/i_arrow_bottom.svg" />
+                </button>
+                <button class="button800 buttonimportant">
+                    <img src="img/i_add_friends.svg" />
+                    &nbsp;Join Group
+                </button>
+            </header>
+
+            <!--------div posts mobile --------------------->
+            <header class="divpostssectionmobilemode">
+                <p>Posts (368)</p>
+                <button class="button800 btn5050">
+                    Filter:All
+                    <img src="img/i_arrow_bottom.svg">
+                </button>
+            </header>
+
+
+<!--------first div of news--------->
+
+            <div class="divpostsSection90">
+                <div class="divpostsItems">
+                    <section class="divpostscards">
+                        <img class="divpostsimages" src="img/post_1.png">
+                        <div class="divposts2021cont">
+                            <p class="divposts2021st">✍️ Article</p>
+                            <div class="divposts2021head">
+                                <h2>
+                                    What if famous brands had regular fonts? Meet RegulaBrands!
+                                </h2>
+                                <img class="Icon2021" src="img/i_dotted.svg"  />
+                                <div class="divpostshead200">
+                                    <p>Edit</p>
+                                    <p>Report</p>
+                                    <p>Option 3</p>
+                                </div>
+                            </div>
+                            <p class="divpostscards--text">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to
+                                rei…
+                            </p>
+                            <div class="divpostscards--user">
+                                <img class="icon_user" src="img/user_1.png">
+                                <h3 class="divpostscards--user-name">Sarthak Karma</h3>
+                                <img class="icon_view" src="img/i_view.svg"  />
+                                <p class="divpostscards--views">1.4k views</p>
+                                <img src="img/i_share.svg"  class="icon_share">
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <!---------second div of news------------------->
+
+                    <section class="divpostscards">
+                        <img class="divpostsimages" src="img/post_2.png" >
+                        <div class="divposts2021cont">
+                            <p class="divposts2021st">🔬️ Education</p>
+                            <div class="divposts2021head">
+                                <h2>
+                                    Tax Benefits for Investment under National Pension Scheme launched by Government
+                                </h2>
+                                <img class="Icon2021" src="img/i_dotted.svg"  />
+                                <div class="divpostshead200">
+                                    <p>Edit</p>
+                                    <p>Report</p>
+                                    <p>Option 3</p>
+                                </div>
+                            </div>
+                            <p class="divpostscards--text">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                            </p>
+                            <div class="divpostscards--user">
+                                <img class="icon_user" src="img/user_2.png" >
+                                <h3 class="divpostscards--user-name">Sarah West</h3>
+                                <img class="icon_view" src="img/i_view.svg"  />
+                                <p class="divpostscards--views">4.8k views</p>
+                                <img src="img/i_share.svg"  class="icon_share">
+                            </div>
+                        </div>
+                    </section>
+                    <!----------------three div of news------------------>
+                    <section class="divpostscards">
+                        <img class="divpostsimages" src="img/post_3.png" >
+                        <div class="divposts2021cont">
+                            <p class="divposts2021st">🗓️ Meetup</p>
+                            <div class="divposts2021head">
+                                <h2>
+                                    Finance & Investment Elite Social Mixer @Lujiazui
+                                </h2>
+                                <img class="Icon2021" src="img/i_dotted.svg" />
+                                <div class="divpostshead200">
+                                    <p>Edit</p>
+                                    <p>Report</p>
+                                    <p>Option 3</p>
+                                </div>
+                            </div>
+                            <div class="divpostslocation">
+                                <div class="divpostslocation">
+                                    <img class="divpostscard520Icon" src="img/i_calender.svg"
+                                    >
+                                    <p class="DIVPOSTSLOCATIONT">Fri, 12 Oct, 2018</p>
+                                </div>
+                                <div class="divpostslocation">
+                                    <img class="divpostscard520Icon" src="img/i_location.svg"
+                                       >
+                                    <p class="DIVPOSTSLOCATIONT">Ahmedabad, India</p>
+                                </div>
+                            </div>
+                            <button class="button800 button9090 rcolor">Visit website</button>
+                            <div class="divpostscards--user">
+                                <img class="icon_user" src="img/user_3.png" >
+                                <h3 class="divpostscards--user-name">Ronal Jones</h3>
+                                <img class="icon_view" src="img/i_view.svg"  />
+                                <p class="divpostscards--views">800 views</p>
+                                <img src="img/i_share.svg"  class="icon_share">
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <!---------------end div of news-------------->
+                    <section class="divpostscards">
+                        <div class="divposts2021cont">
+                            <p class="divposts2021st">💼️ Job</p>
+                            <div class="divposts2021head">
+                                <h2>
+                                    Software Developer
+                                </h2>
+                                <img class="Icon2021" src="img/i_dotted.svg" />
+                                <div class="divpostshead200">
+                                    <p>Edit</p>
+                                    <p>Report</p>
+                                    <p>Option 3</p>
+                                </div>
+                            </div>
+                            <div class="divpostscard520">
+                                <div class="divpostslocation">
+                                    <img class="divpostscard520Icon" src="img/i_basket.svg">
+                                    <p class="DIVPOSTSLOCATIONT">Innovaccer Analytics Private Ltd</p>
+                                </div>
+                                <div class="divpostslocation">
+                                    <img class="divpostscard520Icon" src="img/i_location.svg"
+                                        >
+                                    <p class="DIVPOSTSLOCATIONT">Noida, India</p>
+                                </div>
+                            </div>
+                            <button class="button800 button9090 gcolor">Apply on Timesjobs</button>
+                            <div class="divpostscards--user">
+                                <img class="icon_user" src="img/user_4.png" >
+                                <h3 class="divpostscards--user-name">Joseph Gray</h3>
+                                <img class="icon_view" src="img/i_view.svg"  />
+                                <p class="divpostscards--views">1.7k views</p>
+                                <img src="img/i_share.svg"  class="icon_share">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+
+
+                <!------------section 2 ------------------------>
+                <div class="section2">
+                    <div class="sectionsSearchicon">
+                        <img class="icon-location" src="img/i_location.svg" >
+                        <input class="section2__input" type="text" placeholder="Enter your location">
+                        <img class="Cancel" src="img/i_cancel.svg" >
+                    </div>
+                    <div class="section2sug">
+                        <img class="icon-error" src="img/i_error_circle.svg">
+                        <p>
+                            Your location will help us serve better and extend a personalised experience.
+                        </p>
+                    </div>
+                    <div class="section2important">
+                        <header class="section2important22">
+                            <img src="img/i_like.svg" >
+                            <h3>recommended Groups</h3>
+                        </header>
+                        <div class="section2Lists">
+                            <div class="section2Items">
+                                <img src="img/group_1.png" >
+                                <p>Leisure</p>
+                                <button class="button800 btn1000">Follow</button>
+                            </div>
+                            <div class="section2Items">
+                                <img src="img/group_2.png" >
+                                <p>Activism</p>
+                                <button class="button800 btn1000">Follow</button>
+                            </div>
+                            <div class="section2Items">
+                                <img src="img/group_3.png" >
+                                <p>MBA</p>
+                                <button class="button800 btn1000">Follow</button>
+                            </div>
+                            <div class="section2Items">
+                                <img src="img/group_4.png">
+                                <p>Philosophy</p>
+                                <button class="button800 btn1000">Follow</button>
+                            </div>
+                        </div>
+                        <p class="see-more">See More...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!--------end of project------------->
+
+    <!---------js--------------->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

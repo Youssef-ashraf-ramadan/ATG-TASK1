@@ -1,0 +1,1155 @@
+*,
+*::after,            /***for boder box and for padding 0 maragin 0 ***/
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+
+
+}
+
+
+
+/*****body font family **********/
+body {
+  font-family: Noto Sans JP, sans-serif; 
+
+
+
+
+}
+
+
+
+
+
+
+
+  html {
+    font-size: 62.75%; 
+  
+  
+  }
+  
+
+
+    .rcolor {
+      color: #E56135; 
+    
+    
+    
+    
+    }
+  .button606060 {
+    width: 120px !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid #fff !important;
+    color: #fff !important; 
+  
+  
+  }
+
+.gcolor {
+  color: #02B875; 
+
+}
+
+
+
+
+  /*************Button****************/
+  .button800 {
+    border: none;
+    transition: all .2s ease-in;
+    cursor: pointer; 
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    outline: none;
+    display: flex ;
+    width: 14rem;
+    align-items: center;
+  
+  }
+  
+    .button800:hover {
+      filter: brightness(0.9); 
+    
+    }
+  
+    .buttonimportant {
+      background-color: #306ee5;
+      color: #fff;
+      margin: 0 1rem; 
+    
+    }
+  
+    .btn5050 {
+      background-color: #F2F2F2;
+      color: #333; 
+    
+    }
+    .button9090 {
+      font-weight: 700; 
+    
+    }
+    .btn1000 {
+      border-radius: 100px;
+      width: auto;
+      font-size: 14px;
+      margin: 0; 
+    
+    }
+    .btnAuth {
+      background-color: #2F6CE5;
+      border-radius: 100px;
+      width: 100%;
+      margin: 3rem 0;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      padding: 1.5rem 0; 
+    
+    }
+    .FACEBOOKBTN, .btn--google, .button9090 {
+      background-color: transparent;
+      border: 1px solid #dedede;
+      width: 100%;
+      justify-content: center;
+      margin: 1rem 0; 
+    
+    }
+      .FACEBOOKBTN img, .btn--google img, .button9090 img {
+        margin-right: 1rem; 
+      
+      }
+      .FACEBOOKBTN:hover, .btn--google:hover, .button9090:hover {
+        background-color: rgba(0, 0, 0, 0.05); 
+      
+      
+      }
+
+  /*********media query for responsive*****************/
+
+@media only screen and (max-width: 800px) {
+  .btn__primary,
+  .btn__secondary {
+    margin: 0 5px; 
+  
+  
+  } 
+  
+  
+  }
+
+@media only screen and (max-width: 1000px) {
+  .btnAuth {
+    width: 15rem;
+    display: inline-flex;
+    font-size: 13px;
+    margin: 1.5rem 0; 
+  
+  } 
+  
+  
+  }
+
+@media only screen and (max-width: 700px) {
+  .FACEBOOKBTN,
+  .btn--google {
+    font-size: 14px; 
+  
+  } 
+
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+  font-size: 16px;
+  position: fixed;
+  background-color: #fff;
+  height: 8rem;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+  z-index: 700; 
+
+
+}
+
+  .SignUpSection33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+    font-weight: 500; 
+  
+  }
+    .LogoSigunUp {
+      width: 1.5rem;
+      margin: 0 1rem; 
+    
+    
+    }
+    .SignUpSection33 .itsfree {
+      color: #306ee5;
+      font-weight: 600;
+      cursor: pointer; 
+    
+    
+    }
+
+    .logo3 {
+      width: 20rem; 
+    
+    
+    }
+    .search4 {
+      width: 60rem;
+      position: relative; 
+    
+    
+    }
+    .SearcHicon {
+      width: 1.5rem;
+      height: 1.5rem;
+      position: absolute;
+      top: 50%;
+      left: 2.5rem;
+      transform: translateY(-50%); 
+    
+    
+    }
+    .SearcHinput {
+      width: 100%;
+      padding: 1.5rem 5rem;
+      font-size: inherit;
+      border-radius: 100px;
+      background-color: #F2F2F2;
+      border: none;
+      outline: none; 
+    
+    
+    }
+
+@media only screen and (max-width: 1300px) {
+  .section3 {
+    padding: 2rem 5rem; } }
+
+@media only screen and (max-width: 1200px) {
+  .section3 {
+    padding: 2rem 2rem;
+    font-size: 14px; 
+  
+  }
+    .search4 {
+      width: 45rem; 
+    
+    
+    } 
+    
+    
+    }
+
+@media only screen and (max-width: 900px) {
+  .search4 {
+    width: 40rem; }
+  .logo3 {
+    width: 15rem; 
+  
+  } 
+  
+  }
+
+@media only screen and (max-width: 800px) {
+  .section3 {
+    padding: 1rem 1.5rem; 
+  
+  }
+    .search4 {
+      width: 30rem; 
+    
+    }
+    .logo3 {
+      width: 12rem; } 
+    
+    }
+
+@media only screen and (max-width: 700px) {
+  .section3 {
+    display: none; 
+  
+  } 
+  
+  }
+
+.home {
+  width: 100%;
+  height: 60rem;
+  font-size: 16px;
+  color: #fff;
+  background-image: linear-gradient(to right, rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("../img/bg_image.png");
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+
+}
+  .News {
+    position: absolute;
+    bottom: 7rem;
+    left: 15rem; 
+  
+  }
+  .MobileH {
+    display: none;
+    padding: 1rem;
+    justify-content: space-between; 
+  
+  }
+  .home h1 {
+    font-size: 40px;
+    margin: 1.5rem 0; 
+  
+  }
+  .home p {
+    font-size: inherit; 
+  
+  }
+
+@media only screen and (max-width: 1200px) {
+  .home {
+    height: 50rem; 
+  
+  }
+    .News {
+      left: 8rem;
+      bottom: 4rem; 
+    
+    
+    } 
+    
+    
+    }
+
+@media only screen and (max-width: 800px) {
+  .home {
+    height: 40rem; 
+  
+  } 
+  
+  
+  }
+
+@media only screen and (max-width: 700px) {
+  .home {
+    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("../img/bg_image_mobile.png");
+    height: 65vw;
+    font-size: 2rem; 
+  
+  
+  }
+    .News {
+      left: 5rem;
+      bottom: 3rem; 
+    
+    
+    }
+      .News h1 {
+        font-size: 3rem;
+        margin-bottom: 5px; 
+      
+      
+      }
+    .MobileH {
+      display: flex; 
+    
+    
+    
+    } 
+    
+    
+    }
+
+@media only screen and (max-width: 500px) {
+  .home {
+    font-size: 15px; }
+    .News {
+      left: 2rem;
+      bottom: 2rem; 
+    
+    
+    
+    }
+      .News h1 {
+        font-size: 2rem; 
+      
+      
+      
+      
+      
+      } 
+      
+    
+      }
+
+.divposts {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px; 
+
+}
+  .divpostsSection90 {
+    display: flex;
+    justify-content: space-between; }
+  .divpostssection {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: inherit; 
+  
+  
+  }
+    .divposts-navnav {
+      display: flex;
+      margin-right: auto;
+      height: 100%;
+      font-size: inherit; 
+    
+    
+    }
+      .divposts-nav {
+        height: 100%;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #999;
+        cursor: pointer; 
+      
+      
+      }
+      .divposts-nav:hover,
+      .divposts-navnav .active {
+        border-bottom: 1px solid #333;
+        color: #333; 
+      
+      }
+  .divpostssectionmobilemode {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem 0; 
+  
+  
+  }
+    .divpostssectionmobilemode p {
+      font-weight: 700; 
+    
+    
+    }
+  .divpostscards {
+    width: 75%;
+    margin: 2rem 0;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    font-size: inherit; 
+  
+  }
+    .divpostsimages {
+      width: 100%;
+      background-position: center;
+      background-size: cover; 
+    
+    }
+    .divposts2021cont {
+      margin: 0 3rem;
+      position: relative; 
+    
+    }
+    .divposts2021st {
+      font-size: 20px;
+      margin-top: 1.5rem; 
+    
+    }
+    .divposts2021head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+    
+    }
+      .divposts2021head h2 {
+        font-size: 25px;
+        margin: 2rem 0; 
+      
+      }
+      .divposts2021head .Icon2021 {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        transition: all .2s ease-in-out; 
+      
+      
+      }
+        .divposts2021head .Icon2021:hover {
+          background-color: rgba(0, 0, 0, 0.2); 
+        
+        
+        }
+        .divposts2021head .Icon2021:hover + .divpostscards--options {
+          opacity: 1; 
+        
+        
+        }
+      .divpostshead200 {
+        position: absolute;
+        top: 10rem;
+        right: 0;
+        width: 15rem;
+        font-size: inherit;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        opacity: 0; 
+      
+      
+      }
+        .divpostshead200 p {
+          padding: 1rem 1rem;
+          cursor: pointer; 
+        
+        
+        }
+          .divpostshead200 p:hover {
+            background: rgba(0, 0, 0, 0.1); 
+          
+          
+          }
+        .divpostshead200:hover {
+          opacity: 1; 
+        
+        
+        }
+    .divpostscards--text {
+      font-size: 17px;
+      color: #999; 
+    
+    
+    }
+    .divpostscards--user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem 0;
+      font-size: 16px; 
+    
+    
+    }
+      .divpostscards--user-name {
+        font-size: inherit;
+        margin: 0 auto 0 1.5rem; 
+      
+      
+      }
+    .divpostscards--views {
+      color: #777;
+      font-size: inherit;
+      font-weight: 500;
+      margin: 0 1.5rem 0 .5rem; 
+    
+    
+    }
+    .divpostscard520 {
+      display: flex;
+      margin-bottom: 2rem; 
+    
+    
+    }
+      .divpostslocation {
+        display: flex;
+        margin-right: auto; 
+      
+      
+      }
+      .divpostscard520Icon {
+        width: 2rem;
+        margin: 0 1rem; 
+      
+      
+      }
+      .DIVPOSTSLOCATIONT {
+        font-size: 15px;
+        font-weight: 500; 
+      
+      
+      }
+    .divpostscards .icon_share {
+      width: 4rem;
+      height: 3rem;
+      padding: 0.7rem 1rem;
+      background-color: #F2F2F2;
+      border-radius: 2px; 
+    
+    
+    }
+    .divpostscards .icon_view {
+      width: 2rem; 
+    
+    
+    }
+
+.cPost {
+  display: none;
+  position: fixed;
+  width: 6rem;
+  height: 6rem;
+  bottom: 3rem;
+  right: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  background-image: linear-gradient(to left bottom, #FF5C5C, #F0568A);
+  justify-content: center;
+  align-items: center;
+  z-index: 500; 
+
+}
+
+@media only screen and (max-width: 1400px) {
+  .divposts {
+    width: 90%; 
+  
+  }
+    .divpostscards {
+      width: 85%; 
+    
+    } 
+    
+    
+    }
+
+@media only screen and (max-width: 1050px) {
+  .divposts2021head h2 {
+    font-size: 20px; 
+  
+  
+  }
+  .divpostscards--text {
+    font-size: 15px; 
+  
+  
+  }
+  .divpostscards--views {
+    margin: 0 10px 0 5px;
+  
+  
+  } 
+  
+  
+  }
+
+@media only screen and (max-width: 800px) {
+  .divposts {
+    width: 100%;
+    padding: 0 1.5rem; 
+  
+  }
+    .divpostscards {
+      margin: 2rem auto; 
+    
+    
+    }
+      .divposts2021st {
+        font-size: 15px; 
+      
+      
+      }
+    .divposts-nav {
+      margin-right: 1.5rem; 
+    
+    
+    } 
+    
+    
+    }
+
+@media only screen and (max-width: 700px) {
+  .divposts {
+    padding: 0; 
+  
+  }
+    .divpostssection {
+      display: none; 
+    
+    }
+    .divpostssectionmobilemode {
+      display: flex; 
+    
+    }
+    .divpostscards {
+      width: 100%; 
+    
+    }
+  .cPost {
+    display: flex; 
+  
+  } 
+  
+  }
+
+@media only screen and (max-width: 500px) {
+  .divposts2021cont {
+    margin: 0 1rem;
+  
+  }
+  .divposts2021head h2 {
+    font-size: 16px; 
+  
+  }
+  .divpostscards--text, .divpostscards--user {
+    font-size: 14px; 
+  
+  }
+  .divpostscard520Icon {
+    margin: 0 5px; 
+  
+  }
+  .DIVPOSTSLOCATIONT {
+    font-size: 12px; 
+  
+  } 
+  
+  
+  }
+
+.section2 {
+  width: 35rem; 
+
+
+}
+  .sectionsSearchicon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+    padding: 1.5rem 0; 
+  
+  
+  }
+    .sectionsSearchicon .icon-location {
+      width: 2rem; 
+    
+    }
+    .sectionsSearchicon .Cancel {
+      position: absolute;
+      right: 1rem; 
+    
+    
+    }
+  .section2__input {
+    width: 30rem;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+  
+  
+  }
+  .section2sug {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #999;
+    margin: 4rem 0; 
+  
+  
+  }
+    .section2sug p {
+      margin-left: 1rem;
+    
+    
+    
+    }
+  .section2important {
+    margin: 10rem 0; 
+  
+  
+  
+  }
+    .section2important22 {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      text-transform: uppercase; 
+    
+    
+    
+    }
+      .section2important22 img {
+        width: 2.5rem;
+        margin-right: 1rem; 
+      
+      
+      }
+    .section2Lists {
+      margin-bottom: 7rem; 
+    
+    
+    }
+    .section2Items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 3rem 0; 
+    
+    
+    }
+      .section2Items p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 1rem;
+        margin-right: auto; 
+      
+      
+      
+      }
+    .section2important .see-more {
+      font-size: 14px;
+      color: #306ee5;
+      float: right;
+      cursor: pointer;
+      transition: all 0.2s ease; 
+    
+    }
+      .section2important .see-more:hover {
+        transform: scaleX(1.05); 
+      
+      
+      }
+
+@media only screen and (max-width: 1200px) {
+  .section2 {
+    width: 30rem; } 
+  
+  
+  }
+
+@media only screen and (max-width: 1000px) {
+  .section2 {
+    width: 25rem; } 
+  
+  
+  
+  
+  }
+
+
+@media only screen and (max-width: 800px) {
+  .section2 {
+    display: none; } 
+  
+  
+  
+  }
+
+.auth {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font-size: 16px; 
+
+
+
+}
+  .auth .authentication {
+    position: relative;
+    width: 95rem;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all .3s ease-in; 
+  
+  
+  }
+    .auth .authentication .Cancel {
+      position: absolute;
+      top: -5rem;
+      right: -2rem;
+      cursor: pointer; 
+    
+    
+    }
+    .auth .authAccount {
+      margin: 4rem 0;
+      display: flex;
+      justify-content: space-between; }
+    .auth .authnote {
+      color: #008A45;
+      font-size: inherit;
+      text-align: center;
+      background-color: rgba(0, 138, 69, 0.1);
+      padding: 1.5rem 0; 
+    
+    }
+    .auth .authentication h1 {
+      font-size: 25px;
+      margin-bottom: 3rem; 
+    
+    
+    }
+    .auth .authentication .FullNameuser {
+      display: flex; 
+    
+    
+    
+    }
+      .auth .authentication .FullNameuser input:nth-child(1) {
+        border-right: 1px solid #bcbcbc; 
+      
+      
+      
+      }
+    .auth .authentication .input {
+      width: 50%;
+      padding: 0 5rem; 
+    
+    
+    
+    
+    }
+      .auth .authentication .input-container {
+        border-radius: 3px;
+        border: 1px solid #bcbcbc;
+        border-bottom: none; 
+      
+      
+      
+      
+      }
+        .auth .authentication .input-container input {
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #bcbcbc;
+          background-color: rgba(242, 242, 242, 0.5);
+          padding: 1.5rem;
+          font-size: inherit;
+          width: 100%;
+        
+        
+        
+        
+        }
+        .auth .authentication .input-container .icon-view {
+          position: absolute;
+          width: 2rem;
+          right: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+        
+        
+        }
+      .auth .authentication .input .forget-password {
+        display: block;
+        margin-top: 3rem;
+        font-size: 15px;
+        color: #777;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        transition: all .2s ease; 
+      
+      
+      
+      }
+        .auth .authentication .input .forget-password:hover {
+          color: #306ee5;
+          text-decoration: underline;
+          text-underline-offset: 4px; 
+        
+        
+        
+        }
+      .auth .authentication .input .cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .auth .authentication .input .cta a {
+          display: none;
+          color: #777; 
+        
+        
+        }
+    .auth .authentication .change {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 0 5rem;
+    
+    
+    }
+      .auth .authentication .change .p1 {
+        font-size: 16px;
+        color: #333; 
+      
+      
+      }
+        .auth .authentication .change .p1 a {
+          font-weight: 700;
+          font-size: inherit;
+          color: #306ee5;
+          cursor: pointer; 
+        
+        }
+          .auth .authentication .change .p1 a:hover {
+            filter: brightness(0.7); 
+          
+          
+          }
+      .auth .authentication .change .p2 {
+        color: #999;
+        font-size: 12px; 
+      
+      }
+    .auth .authentication .hide {
+      display: none; 
+    
+    
+    }
+
+.hide {
+  display: none;
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .auth .authentication {
+    width: 40rem; 
+  
+  
+  
+  }
+    .auth .authnote {
+      display: none; 
+    
+    
+    
+    }
+    .auth .authAccount {
+      flex-direction: column;
+      margin: 1rem 0; 
+    
+    
+    }
+      .auth .authAccount .change .p1, .auth .authAccount .change img {
+        display: none; 
+      
+      
+      }
+      .auth .authAccount .change .p2 {
+        width: 100%;
+        text-align: center;
+        margin: 1.5rem 0; 
+      
+      
+      
+      
+      
+      
+      
+      }
+    .auth .authentication .input {
+      padding: 0 2rem;
+      width: 100%; 
+    
+    
+    
+    
+    
+    }
+      .auth .authentication .input-container input {
+        padding: 1rem; 
+      
+      
+      
+      
+      }
+      .auth .authentication .input .cta a {
+        display: inline-block; 
+      
+      
+      
+      
+      
+      
+      } 
+      
+      
+      
+      
+      
+      
+      }
+
+@media only screen and (max-width: 500px) {
+  .auth {
+    font-size: 14px;
+    align-items: flex-end; 
+  
+  
+  
+  
+  
+  
+  }
+    .auth .authentication {
+      width: 100%;
+      height: 75vh;
+      border-radius: 10px 10px 0 0; 
+    
+    
+    
+    
+    }
+      .auth .authentication h1 {
+        font-size: 20px;
+        margin: 1.5rem 0; 
+      
+      
+      
+      
+      }
+      .auth .authentication .Cancel {
+        top: 2rem;
+        right: 2rem; 
+      
+      
+      
+      
+      
+      
+      } 
+      
+      
+      }
